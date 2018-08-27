@@ -6,3 +6,6 @@ $(function () {
     });
 
 });
+if (window.screen.width > 678) {
+    document.querySelector('.mobile-menu').style.display = 'none';
+}
