@@ -64,7 +64,7 @@ nav {}
   display: none;
 }
 
-.mobile-menu {
+/*.mobile-menu {
   display: none;
 }
 
@@ -212,8 +212,12 @@ header {
     display: none;
   }
   .mobile-menu {
-    display: block;
+    /*  display: block; 
+    display: none; */
     margin-top: 7vh;
+  }
+  .mobile-menu.is-visible {
+    display: block !important;
   }
   .nav {
     display: flex;
@@ -222,6 +226,9 @@ header {
   .hamburger {
     display: inline-block;
     margin-right: 40px;
+  }
+  .hamburger:hover {
+    cursor: pointer;
   }
   .logo {
     width: 70%;
